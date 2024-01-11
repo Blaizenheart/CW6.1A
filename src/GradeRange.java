@@ -12,6 +12,6 @@ public class GradeRange
         {
             System.out.println(grades[level] + "\t" + cutoff[level]);
         }
-        System.out.println("\nShayla's grade: " + grades[generator.nextInt(12)+1]);
+        System.out.println("\nShayla's grade: " + grades[generator.nextInt(13)]);
     } // End main method
 } // End main class
